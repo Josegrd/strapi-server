@@ -6,6 +6,20 @@
 app = 'strapi-server'
 primary_region = 'sin'
 
+[env]
+  HOST=0.0.0.0
+  PORT=1337
+  
+  # Secrets
+  APP_KEYS=n3jPYrdiH9TrpsyriNeg6Q==,qW9Kvd9DYRBqHQcGasjM5w==,a8qKGinfk/4f9LAvl7yQcw==,VqfYFh9bL6vd8uJeB/tWJQ==
+  API_TOKEN_SALT=c66d9UxBQ/iND/ICtgcZVQ==
+  ADMIN_JWT_SECRET=uGSP4/vzTqOaPDLBK8bKpA==
+  TRANSFER_TOKEN_SALT=KnzyyvxChsy3dzeK3UTL8w==
+  DATABASE_HOST=ep-silent-cake-a5gyvmex.us-east-2.aws.neon.tech
+  DATABASE_NAME=strapi_db
+  DATABASE_USERNAME=neondb_owner
+  DATABASE_PASSWORD=eHM7UmENIQ2RJWT_SECRET=EIyMZbrGv4yOIA08vRsZpw==
+
 [build]
 
 [[mounts]]
